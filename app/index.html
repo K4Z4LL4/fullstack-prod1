@@ -152,9 +152,9 @@
             </div>
             <!--Descripción-->
             <div class="form-floating mb-3">
-              <textarea class="form-control" id="panDescrip" name="panDescrip"
-                placeholder="Aquí la descripción"></textarea>
+              <input type="text" class="form-control" id="panDescrip" placeholder="Descripción" name="panDescrip" required>
               <label for="panDescrip">Descripción</label>
+              <div class="invalid-feedback">La descripción del tablero es necesario.</div>
             </div>
             <!--Color -->
             <div class="input-group mb-3">
@@ -191,21 +191,21 @@
           <div class="modal-body">
             <!--Descripción-->
             <div class="form-floating mb-3">
-              <textarea class="form-control" id="taskDescrip" name="taskDescrip"
-                placeholder="Aquí la descripción"></textarea>
+              <input type="text" class="form-control" id="taskDescrip" placeholder="Descripción" name="taskDescrip" required>
               <label for="taskDescrip">Descripción</label>
+              <div class="invalid-feedback">La descripción de la tarea es necesario.</div>
             </div>
             <!--Responsable-->
             <div class="form-floating mb-3">
-              <textarea class="form-control" id="taskMember" name="taskMember"
-                        placeholder="Responsable"></textarea>
+              <input type="text" class="form-control" id="taskMember" placeholder="Responsable" name="taskMember" required>
               <label for="taskMember">Responsable</label>
+              <div class="invalid-feedback">El responsable de la tarea es necesario.</div>
             </div>
             <!--Fecha finalización tarea-->
             <div class="form-floating">
               <input type="date" class="form-control" id="taskDat" placeholder="Fin" name="taskDat" required>
               <label for="taskDat">Entrega</label>
-              <div class="invalid-feedback">La fecha de inicio del proyecto es necesaria.</div>
+              <div class="invalid-feedback">La fecha de fin de tarea es necesaria</div>
             </div>
           </div>
           <!--Footer-->
