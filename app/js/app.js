@@ -223,7 +223,7 @@ function createPanCard(pan) {
     </div>
     <div class="card-footer d-flex justify-content-around" style="background-color:${pan.color}">
     <button class="btn" onclick="openPanForm(${pan.id})"><i class="bi bi-pencil-fill"></i></button>
-    <button class="btn" onclick="openPan(${pan.id})"><i class="bi bi-arrow-down-right"></i></button>
+    <button class="btn" onclick="openPan(${pan.id})"><i class="bi bi-arrow-down-right-square-fill"></i></button>
     </div>
 </div>`;
 }
