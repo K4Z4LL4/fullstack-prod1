@@ -14,36 +14,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Nuestros archivos -->
-    <link href="/fullstack-prod1-ang/css/styles.css" rel="stylesheet" />
+    <link href="/fullstack-prod1-main/app/css/styles.css" rel="stylesheet" />
 </head>
     
 <body>
-    <nav class="navbar navbar-expand-lg bg-light-subtle sticky-top">
-        <!-- Logo a la izquierda -->
-        <a class="navbar-brand" href="#" onclick="goPansList()">
-          <img src="img/logo-flow.jpeg" width="60" height="60" alt="Logo">
-          KanbanFlow
-        </a>
-        <!-- Botón de hamburguesa para dispositivos móviles -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Enlaces a la derecha -->
-        <div class="collapse navbar-collapse justify-content-end">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tutorial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/fullstack-prod1-ang/index.html">Inicio</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <!-- Logo a la izquierda -->
+      <a class="navbar-brand" href="#" onclick="goPansList()">
+        <img src="img/logo-flow.png" width="60" height="60" alt="Logo">
+        KanbanFlow
+      </a>
+      <!-- Botón de hamburguesa para dispositivos móviles -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Enlaces a la derecha -->
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav me-5">
+          <li class="nav-item me-5 fs-3">
+            <a class="nav-link" href="#">Tutorial</a>
+          </li>
+          <li class="nav-item me-5 fs-3">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item me-5 fs-3">
+            <a class="nav-link" href="/fullstack-prod1-main/app/index.html">Inicio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <section class="vh-100">
         <div class="container-fluid h-custom">
           <div class="row d-flex justify-content-center align-items-center h-100">
@@ -90,11 +90,25 @@
           </div>
         </div>
       </section>
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container">
-            <p>&copy; FullStackFlow</p>
-            </div>
-        </footer>
+         <!-- Footer -->
+    <footer class="bg-dark-subtle text-center text-lg-start mt-auto">
+      <div class="container d-flex justify-content-center py-5">
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #5F6C90;">
+          <i class="bi bi-github"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #5F6C90;">
+          <i class="bi bi-slack"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #5F6C90;">
+          <i class="bi bi-trello"></i>
+        </button>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #5F6C90;">
+          <i class="bi bi-youtube"></i>
+        </button>
+      </div>
+      <div class="text-center text-white p-3" style="background-color: #F87C56;">
+        © 2024 FullStackFlow:
+      </div>
+    </footer>
 </body>
 </html>
